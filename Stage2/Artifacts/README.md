@@ -1,8 +1,7 @@
 # Download the artifacts
 
 The two digital artifacts can be downloaded from:
-- charlied_disk.tar.gz ... 
-- and backup_disk.tar.gz...
+- ...
 
 | File                 | MD5                               | Description
 |:--------------------:|:---------------------------------:|:----------------------------------------------------
