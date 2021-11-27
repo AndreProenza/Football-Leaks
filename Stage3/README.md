@@ -40,6 +40,7 @@ You ask Frederick for relevant information
 and any available forensic material that can help you reconstruct the sequence of events that may have
 led to the exfiltration of the documents from Red Hawks FC.
 
+<img src="https://user-images.githubusercontent.com/78174997/143690306-3be431d4-a7e4-4c75-be2c-b1b317f4e8a0.png">
 
 The figure above shows the reconstruction of the topology of Red Hawks FC’s internal network (sim-
 plified). This network has one gateway router R (192.168.122.1), an HTTPS Proxy (192.168.122.171),
