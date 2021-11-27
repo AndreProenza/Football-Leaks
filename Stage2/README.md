@@ -10,7 +10,7 @@ that was found in Mr. Charles Daniels’ home.
 
 This second stage will be focused on trying to
 explain how these documents have been obtained by analyzing hard disk images. To solve this assignment,
-you will need to develop your skills in file forensic techniques and tools.
+you will need to develop your skills in file forensic techniques and tools. The digital artifacts can be found in the `Artifacts` folder.
 
 To analyze these artifacts, you may use the `Kali Linux` distribution or the `Parrot OS` idstribution on a forensically sound virtual machine.
 
@@ -47,7 +47,7 @@ computers were connected to the Internet via the local network.
 
 An agent seized both computers and
 created two forensically sound images of the hard disks, storing these images in the following two artifact
-files (these files can be downloaded from ... and ...)
+files (these files can be downloaded from charlied_disk.tar.gz ... and backup_disk.tar.gz...)
 
 | File                 | MD5                               | Description
 |:--------------------:|:---------------------------------:|:----------------------------------------------------
