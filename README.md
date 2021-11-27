@@ -4,7 +4,6 @@ A forensics cyber security simulation of an investigation entitled “Football L
 
 <img src="https://user-images.githubusercontent.com/78174997/143689769-5f41acc5-8302-4093-acdb-076060d17fc6.jpg">
 
-
 ## The investigation
 
 This investigation will be conducted in three progressive stages, stage1, stage2 and stage3, each of them exploring different cyber security forensic techniques.
