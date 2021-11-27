@@ -9,15 +9,15 @@ A forensics cyber security simulation of an investigation entitled “Football L
 This investigation will be conducted in three progressive stages, stage1, stage2 and stage3, each of them exploring different cyber security forensic techniques.
 This simulation will help you gain hands-on experience on techniques such as file forensics, steganalysis, analysis of hard disk images, network analysis, and malware analysis.
 
-- Stage 1 
+- **Stage 1** 
 
   - File forensics and Steganalysis
  
-- Stage 2
+- **Stage 2**
 
   - Analyzing hard disk images
   
-- Stage 3
+- **Stage 3**
 
   - Network analysis and malware analysis
 
@@ -34,12 +34,12 @@ In case you have no clue, on how to proceed the investigation, a detailed soluti
 
 ## Where to analyze the artifacts?
 
-To analyze the digital artifacts, you may use the Kali Linux distribution or the Parrot OS distribution on a forensically sound virtual machine.
+To analyze the digital artifacts, you may use the `Kali Linux` distribution or the `Parrot OS` distribution on a forensically sound virtual machine.
 
-<img src="kali-parrot.png">
+<img src="kali-parrot.png" width="500">
 
 ## Requirements
 
-- Programming (preferably python)
+- Programming (preferably python) 
 - Unix
 - Bash 
