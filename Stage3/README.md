@@ -4,7 +4,7 @@
 
 This assignment stage will conclude the investigation of the case “Football Leaks”. After having analyzed the
 hard drive images of the two computers located in Charles Daniels’ residence, in this
-stage, you will need to investigate the computer network of the Red Hawks FC. 
+stage, you will need to investigate the computer network of the Red Hawks FC.  
 
 This examination aims
 to finally assess the authenticity of the documents found in Charles Daniels’ possession and determine if
