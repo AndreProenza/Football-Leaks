@@ -2,7 +2,8 @@
 
 A forensics cyber security simulation of an investigation entitled “Football Leaks”.
 
-<img src="football-leaks.jpg">
+<img src="https://user-images.githubusercontent.com/78174997/143689769-5f41acc5-8302-4093-acdb-076060d17fc6.jpg">
+
 
 ## The investigation
 
@@ -36,7 +37,7 @@ In case you have no clue, on how to proceed the investigation, a detailed soluti
 
 To analyze the digital artifacts, you may use the `Kali Linux` distribution or the `Parrot OS` distribution on a forensically sound virtual machine.
 
-<img src="kali-parrot.png" width="500">
+<img src="https://user-images.githubusercontent.com/78174997/143689779-4a880e59-b461-442e-aa3b-a981da5a4e35.png" width="500">
 
 ## Requirements
 
