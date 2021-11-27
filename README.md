@@ -36,7 +36,7 @@ In case you have no clue, on how to proceed the investigation, a detailed soluti
 
 To analyze the digital artifacts, you may use the Kali Linux distribution or the Parrot OS distribution on a forensically sound virtual machine.
 
-<img src="kali.jpg"> | <img src="parrot.jpg">
+<img src="kali-parrot.png">
 
 ## Requirements
 
