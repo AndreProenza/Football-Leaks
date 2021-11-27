@@ -35,6 +35,26 @@ damaging the Red Hawks Football Club. Interestingly, by analyzing the pen drive�
 |f4.pdf      | 2be65457105ca324381952538fc94de7  | The Hawks supporters’ statement
 |f5.pdf      | 44d015d11ecd0ec4ecaa6cb350032d17  | James Santos’s player stats
 
+The authorities have then decided to further investigate i) how these documents have been obtained,
+and ii) who was responsible for collecting them. 
+
+Unfortunately, when interrogated by the police, Mr.Daniels refused to collaborate and to disclose any meaningful information, claiming his lawful right to
+protect his sources. He also refused to reveal the identify of the pen drive’s owner; the serial number
+of this pen drive is 43F34AAD. 
+
+Your team was then tasked to procure additional digital evidence from
+Mr. Daniels’ residence, where two computers were found: a workstation and a backup server. These
+computers were connected to the Internet via the local network. 
+
+An agent seized both computers and
+created two forensically sound images of the hard disks, storing these images in the following two artifact
+files (these files can be downloaded from ... and ...)
+
+| File                 | MD5                               | Description
+|:--------------------:|:---------------------------------:|:----------------------------------------------------
+|charlied_disk.tar.gz  | 4619c51a85bcf01a0cab197d4d1192e2  | Hard disk image of Mr. Daniels’s workstation
+|backup_disk.tar.gz    | 0a4f41069e2aff2250536f5950b9a9f4  | Hard disk image of Mr. Daniels’s backup server
+
 ---
 
 ## What to do?
