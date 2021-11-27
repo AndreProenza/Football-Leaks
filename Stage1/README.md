@@ -8,6 +8,7 @@ small number of files which can be found in the `Artifacts` folder.
 
 To analyze these artifacts, you may use the Kali Linux distribution or the Parrot OS idstribution on a forensically sound virtual machine.
 
+---
 
 ## Scenario presentation
 
@@ -31,3 +32,55 @@ to lead the forensic task force looking for relevant digital evidence.
 
 The first responding officer found several pieces of equipment in Mr. Daniels’ residence, amongst
 which a pen drive. The following files were extracted from this pen drive (these files can be found in the `Artifacts` folder)
+
+
+
+---
+
+## What to do?
+
+In this stage, your job is to analyze these digital artifacts and answer the following four questions.
+Justify your answers by providing all the relevant evidence you can find. Make sure to explain your
+hypotheses and how you have proceeded to validate them.
+
+### Question 1
+
+Do you find any traces of the documents that Mr. Daniels claims to have in his possession? Present
+your findings explaining the procedure you followed to retrieve these documents.
+
+### Question 2
+
+In case you found any relevant documents, what can you learn from them at this point? Do they
+support the original hypothesis of Mr. Velucci’s fraudulent actions put forth by Mr. Daniels?
+
+### Question 3
+
+From the analysis of all provided artifacts, what else have you learned? Present every interesting
+insight you may have gained, e.g., about the potential identity of involved stakeholders, sources of
+leakage, skill level of the individuals responsible for the leakage, etc.
+
+### Question 4
+
+Based on your findings, suggest the next steps you would take to pursue this investigation.
+
+---
+
+## Digital Forensic report
+
+Write a forensic report that describes your findings.
+
+• `Digital Forensic Report`: A document in which you answer the aforementioned questions. 
+You must identify all relevant evidentiary items that support your claims.
+
+• `Evidence Artifacts`: All relevant evidence artifacts recovered during the forensic analysis. Please
+make sure that the respective file names and MD5 values are indicated in the report.
+
+• `Auxiliary Items`: Programs, scripts, and additional documents that you have produced during the
+investigation which are important to justify your results must also be included.
+
+### Tips
+
+There are in total 5 hidden secrets in the provided artifacts. The secrets were hidden using some
+of the techniques that were introduced in the theory classes about file forensics and steganography.
+
+---
