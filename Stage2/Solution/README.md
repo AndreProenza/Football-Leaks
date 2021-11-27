@@ -76,7 +76,9 @@ Establish a timeline of relevant events**
 > </p>
 Na figura seguinte é possivel observar a linha temporal dos acontecimentos relevantes que ocorreram neste dia.
 
-![linha de tempo](timetable.png)
+![timetable](https://user-images.githubusercontent.com/78174997/143694914-a498b23f-ba89-4e9d-9e4f-5602c22ff24b.png)
+
+
 
 #
               
