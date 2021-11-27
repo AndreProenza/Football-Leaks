@@ -1,0 +1,1454 @@
+Frame 115877: 97 bytes on wire (776 bits), 97 bytes captured (776 bits) on interface ens3, id 0
+    Interface id: 0 (ens3)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 31, 2021 16:08:17.189218758 WET
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1635696497.189218758 seconds
+    [Time delta from previous captured frame: 0.000502629 seconds]
+    [Time delta from previous displayed frame: 0.000502629 seconds]
+    [Time since reference or first frame: 103512.454684758 seconds]
+    Frame Number: 115877
+    Frame Length: 97 bytes (776 bits)
+    Capture Length: 97 bytes (776 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:tls:http2:json]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: 0c:77:42:08:00:00 (0c:77:42:08:00:00), Dst: 0c:75:f1:d8:00:00 (0c:75:f1:d8:00:00)
+    Destination: 0c:75:f1:d8:00:00 (0c:75:f1:d8:00:00)
+        Address: 0c:75:f1:d8:00:00 (0c:75:f1:d8:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 0c:77:42:08:00:00 (0c:77:42:08:00:00)
+        Address: 0c:77:42:08:00:00 (0c:77:42:08:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.122.171, Dst: 192.168.122.113
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 83
+    Identification: 0x86ff (34559)
+    Flags: 0x40, Don't fragment
+    Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x3d38 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.122.171
+    Destination Address: 192.168.122.113
+Transmission Control Protocol, Src Port: 8080, Dst Port: 59546, Seq: 163259, Ack: 128037, Len: 31
+    Source Port: 8080
+    Destination Port: 59546
+    [Stream index: 1714]
+    [TCP Segment Len: 31]
+    Sequence Number: 163259    (relative sequence number)
+    Sequence Number (raw): 1505188238
+    [Next Sequence Number: 163290    (relative sequence number)]
+    Acknowledgment Number: 128037    (relative ack number)
+    Acknowledgment number (raw): 3309152996
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+    Window: 685
+    [Calculated window size: 87680]
+    [Window size scaling factor: 128]
+    Checksum: 0x91fb [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+        [iRTT: 0.012462022 seconds]
+        [Bytes in flight: 3247]
+        [Bytes sent since last PSH flag: 31]
+    [Timestamps]
+    TCP payload (31 bytes)
+    [PDU Size: 9]
+Hypertext Transfer Protocol
+    [Proxy-Connect-Hostname: outlook.live.com]
+    [Proxy-Connect-Port: 443]
+Transport Layer Security
+    TLSv1.3 Record Layer: Application Data Protocol: http2
+        Opaque Type: Application Data (23)
+        Version: TLS 1.2 (0x0303)
+        Length: 26
+        [Content Type: Application Data (23)]
+        Encrypted Application Data: 9c542ba03ea26ab56ed965e8bdbf4c454649af51643a86a76aba
+        [Application Data Protocol: http2]
+HyperText Transfer Protocol 2
+    Stream: DATA, Stream ID: 77, Length 0
+        Length: 0
+        Type: DATA (0)
+        Flags: 0x01, End Stream
+        0... .... .... .... .... .... .... .... = Reserved: 0x0
+        .000 0000 0000 0000 0000 0000 0100 1101 = Stream Identifier: 77
+        [Pad Length: 0]
+        [1 Body fragment (3185 bytes): #115876(3185)]
+        Content-encoded entity body (gzip): 3185 bytes -> 16331 bytes
+        JavaScript Object Notation: application/json
+            Object
+                Member Key: Header
+                    Object
+                        Member Key: ServerVersionInfo
+                            Object
+                                Member Key: MajorVersion
+                                    Number value: 15
+                                    Key: MajorVersion
+                                Member Key: MinorVersion
+                                    Number value: 20
+                                    Key: MinorVersion
+                                Member Key: MajorBuildNumber
+                                    Number value: 4649
+                                    Key: MajorBuildNumber
+                                Member Key: MinorBuildNumber
+                                    Number value: 19
+                                    Key: MinorBuildNumber
+                                Member Key: Version
+                                    String value: V2018_01_18
+                                    Key: Version
+                            Key: ServerVersionInfo
+                    Key: Header
+                Member Key: Body
+                    Object
+                        Member Key: __type
+                            String value: GetConversationItemsResponse:#Exchange
+                            Key: __type
+                        Member Key: ResponseMessages
+                            Object
+                                Member Key: Items
+                                    Array
+                                        Object
+                                            Member Key: __type
+                                                String value: GetConversationItemsResponseMessage:#Exchange
+                                                Key: __type
+                                            Member Key: Conversation
+                                                Object
+                                                    Member Key: ConversationId
+                                                        Object
+                                                            Member Key: __type
+                                                                String value: ItemId:#Exchange
+                                                                Key: __type
+                                                            Member Key: Id
+                                                                String value: AQQkADAwATNiZmYAZC00MWVhLWM1NQAxLTAwAi0wMAoAEADa5W5uAHTY7UOMxOh+W/HdDQ==
+                                                                Key: Id
+                                                        Key: ConversationId
+                                                    Member Key: SyncState
+                                                        String value: AQEAAAAUJt4yAgEAAAAUJvHJAwEAAAAUbdIGBAEAAAAUbdIH
+                                                        Key: SyncState
+                                                    Member Key: ConversationNodes
+                                                        Array
+                                                            Object
+                                                                Member Key: InternetMessageId
+                                                                    String value: <CAHko=zYT6W6s=f7w2rtyOr5PoG2Wn3nymkFTZC1E3sj4r2Pdpw@mail.gmail.com>
+                                                                    Key: InternetMessageId
+                                                                Member Key: Items
+                                                                    Array
+                                                                        Object
+                                                                            Member Key: __type
+                                                                                String value: Message:#Exchange
+                                                                                Key: __type
+                                                                            Member Key: Sender
+                                                                                Object
+                                                                                    Member Key: Mailbox
+                                                                                        Object
+                                                                                            Member Key: Name
+                                                                                                String value: George Sednem
+                                                                                                Key: Name
+                                                                                            Member Key: EmailAddress
+                                                                                                String value: georgesednem@gmail.com
+                                                                                                Key: EmailAddress
+                                                                                            Member Key: RoutingType
+                                                                                                String value: SMTP
+                                                                                                Key: RoutingType
+                                                                                            Member Key: MailboxType
+                                                                                                String value: OneOff
+                                                                                                Key: MailboxType
+                                                                                        Key: Mailbox
+                                                                                Key: Sender
+                                                                            Member Key: ToRecipients
+                                                                                Array
+                                                                                    Object
+                                                                                        Member Key: Name
+                                                                                            String value: levyfvelucci@outlook.com
+                                                                                            Key: Name
+                                                                                        Member Key: EmailAddress
+                                                                                            String value: levyfvelucci@outlook.com
+                                                                                            Key: EmailAddress
+                                                                                        Member Key: RoutingType
+                                                                                            String value: SMTP
+                                                                                            Key: RoutingType
+                                                                                        Member Key: MailboxType
+                                                                                            String value: OneOff
+                                                                                            Key: MailboxType
+                                                                                        Member Key: Submitted
+                                                                                            False value
+                                                                                            Key: Submitted
+                                                                                    Object
+                                                                                        Member Key: Name
+                                                                                            String value: ryancoast10@outlook.com
+                                                                                            Key: Name
+                                                                                        Member Key: EmailAddress
+                                                                                            String value: ryancoast10@outlook.com
+                                                                                            Key: EmailAddress
+                                                                                        Member Key: RoutingType
+                                                                                            String value: SMTP
+                                                                                            Key: RoutingType
+                                                                                        Member Key: MailboxType
+                                                                                            String value: OneOff
+                                                                                            Key: MailboxType
+                                                                                        Member Key: Submitted
+                                                                                            False value
+                                                                                            Key: Submitted
+                                                                                        Member Key: RelevanceScore
+                                                                                            Number value: 0
+                                                                                            Key: RelevanceScore
+                                                                                Key: ToRecipients
+                                                                            Member Key: ItemId
+                                                                                Object
+                                                                                    Member Key: __type
+                                                                                        String value: ItemId:#Exchange
+                                                                                        Key: __type
+                                                                                    Member Key: ChangeKey
+                                                                                        String value: CQAAABYAAAAQqz28gm65Rp7+PLeIEs4yAAAUI+F2
+                                                                                        Key: ChangeKey
+                                                                                    Member Key: Id
+                                                                                        String value: AQMkADAwATNiZmYAZC00MWVhLWM1NQAxLTAwAi0wMAoARgAAA30oWgG+QEVOj0hjmQyvIBwHABCrPbyCbrlGnv48t4gSzjIAAAIBDAAAABCrPbyCbrlGnv48t4gSzjIAAAAUJt4yAAAA
+                                                                                        Key: Id
+                                                                                Key: ItemId
+                                                                            Member Key: CcRecipients
+                                                                                Array
+                                                                                Key: CcRecipients
+                                                                            Member Key: ParentFolderId
+                                                                                Object
+                                                                                    Member Key: __type
+                                                                                        String value: FolderId:#Exchange
+                                                                                        Key: __type
+                                                                                    Member Key: Id
+                                                                                        String value: AQMkADAwATNiZmYAZC00MWVhLWM1NQAxLTAwAi0wMAoALgAAA30oWgG+QEVOj0hjmQyvIBwBABCrPbyCbrlGnv48t4gSzjIAAAIBDAAAAA==
+                                                                                        Key: Id
+                                                                                    Member Key: ChangeKey
+                                                                                        String value: AQAAAA==
+                                                                                        Key: ChangeKey
+                                                                                Key: ParentFolderId
+                                                                            Member Key: BccRecipients
+                                                                                Array
+                                                                                Key: BccRecipients
+                                                                            Member Key: ItemClass
+                                                                                String value: IPM.Note
+                                                                                Key: ItemClass
+                                                                            Member Key: IsReadReceiptRequested
+                                                                                False value
+                                                                                Key: IsReadReceiptRequested
+                                                                            Member Key: Subject
+                                                                                String value: Dinner celebration
+                                                                                Key: Subject
+                                                                            Member Key: IsDeliveryReceiptRequested
+                                                                                False value
+                                                                                Key: IsDeliveryReceiptRequested
+                                                                            Member Key: Sensitivity
+                                                                                String value: Normal
+                                                                                Key: Sensitivity
+                                                                            Member Key: Importance
+                                                                                String value: Normal
+                                                                                Key: Importance
+                                                                            Member Key: From
+                                                                                Object
+                                                                                    Member Key: Mailbox
+                                                                                        Object
+                                                                                            Member Key: Name
+                                                                                                String value: George Sednem
+                                                                                                Key: Name
+                                                                                            Member Key: EmailAddress
+                                                                                                String value: georgesednem@gmail.com
+                                                                                                Key: EmailAddress
+                                                                                            Member Key: RoutingType
+                                                                                                String value: SMTP
+                                                                                                Key: RoutingType
+                                                                                            Member Key: MailboxType
+                                                                                                String value: OneOff
+                                                                                                Key: MailboxType
+                                                                                        Key: Mailbox
+                                                                                Key: From
+                                                                            Member Key: DateTimeReceived
+                                                                                String value: 2021-10-30T10:59:54+01:00
+                                                                                Key: DateTimeReceived
+                                                                            Member Key: InternetMessageId
+                                                                                String value: <CAHko=zYT6W6s=f7w2rtyOr5PoG2Wn3nymkFTZC1E3sj4r2Pdpw@mail.gmail.com>
+                                                                                Key: InternetMessageId
+                                                                            Member Key: Size
+                                                                                Number value: 32736
+                                                                                Key: Size
+                                                                            Member Key: IsRead
+                                                                                True value
+                                                                                Key: IsRead
+                                                                            Member Key: IsSubmitted
+                                                                                False value
+                                                                                Key: IsSubmitted
+                                                                            Member Key: IsDraft
+                                                                                False value
+                                                                                Key: IsDraft
+                                                                            Member Key: DateTimeSent
+                                                                                String value: 2021-10-30T10:59:42+01:00
+                                                                                Key: DateTimeSent
+                                                                            Member Key: DateTimeCreated
+                                                                                String value: 2021-10-30T10:59:54+01:00
+                                                                                Key: DateTimeCreated
+                                                                            Member Key: ResponseObjects
+                                                                                Array
+                                                                                    Object
+                                                                                        Member Key: __type
+                                                                                            String value: ReplyToItem:#Exchange
+                                                                                            Key: __type
+                                                                                    Object
+                                                                                        Member Key: __type
+                                                                                            String value: ReplyAllToItem:#Exchange
+                                                                                            Key: __type
+                                                                                    Object
+                                                                                        Member Key: __type
+                                                                                            String value: ForwardItem:#Exchange
+                                                                                            Key: __type
+                                                                                Key: ResponseObjects
+                                                                            Member Key: RecipientCounts
+                                                                                Object
+                                                                                    Member Key: ToRecipientsCount
+                                                                                        Number value: 2
+                                                                                        Key: ToRecipientsCount
+                                                                                Key: RecipientCounts
+                                                                            Member Key: IsGroupEscalationMessage
+                                                                                False value
+                                                                                Key: IsGroupEscalationMessage
+                                                                            Member Key: DisplayTo
+                                                                                String value: levyfvelucci@outlook.com; ryancoast10@outlook.com
+                                                                                Key: DisplayTo
+                                                                            Member Key: HasAttachments
+                                                                                False value
+                                                                                Key: HasAttachments
+                                                                            Member Key: ExtendedProperty
+                                                                                Array
+                                                                                    Object
+                                                                                        Member Key: ExtendedFieldURI
+                                                                                            Object
+                                                                                                Member Key: __type
+                                                                                                    String value: ExtendedPropertyUri:#Exchange
+                                                                                                    Key: __type
+                                                                                                Member Key: PropertyTag
+                                                                                                    String value: 0xe1d
+                                                                                                    Key: PropertyTag
+                                                                                                Member Key: PropertyType
+                                                                                                    String value: String
+                                                                                                    Key: PropertyType
+                                                                                            Key: ExtendedFieldURI
+                                                                                        Member Key: Value
+                                                                                            String value: Dinner celebration
+                                                                                            Key: Value
+                                                                                    Object
+                                                                                        Member Key: ExtendedFieldURI
+                                                                                            Object
+                                                                                                Member Key: __type
+                                                                                                    String value: ExtendedPropertyUri:#Exchange
+                                                                                                    Key: __type
+                                                                                                Member Key: PropertyTag
+                                                                                                    String value: 0x1081
+                                                                                                    Key: PropertyTag
+                                                                                                Member Key: PropertyType
+                                                                                                    String value: Integer
+                                                                                                    Key: PropertyType
+                                                                                            Key: ExtendedFieldURI
+                                                                                        Member Key: Value
+                                                                                            String value: 103
+                                                                                            Key: Value
+                                                                                    Object
+                                                                                        Member Key: ExtendedFieldURI
+                                                                                            Object
+                                                                                                Member Key: __type
+                                                                                                    String value: ExtendedPropertyUri:#Exchange
+                                                                                                    Key: __type
+                                                                                                Member Key: PropertyTag
+                                                                                                    String value: 0x1082
+                                                                                                    Key: PropertyTag
+                                                                                                Member Key: PropertyType
+                                                                                                    String value: SystemTime
+                                                                                                    Key: PropertyType
+                                                                                            Key: ExtendedFieldURI
+                                                                                        Member Key: Value
+                                                                                            String value: 2021-10-30T11:11:14+01:00
+                                                                                            Key: Value
+                                                                                    Object
+                                                                                        Member Key: ExtendedFieldURI
+                                                                                            Object
+                                                                                                Member Key: __type
+                                                                                                    String value: ExtendedPropertyUri:#Exchange
+                                                                                                    Key: __type
+                                                                                                Member Key: PropertyTag
+                                                                                                    String value: 0x1016
+                                                                                                    Key: PropertyTag
+                                                                                                Member Key: PropertyType
+                                                                                                    String value: Integer
+                                                                                                    Key: PropertyType
+                                                                                            Key: ExtendedFieldURI
+                                                                                        Member Key: Value
+                                                                                            String value: 3
+                                                                                            Key: Value
+                                                                                    Object
+                                                                                        Member Key: ExtendedFieldURI
+                                                                                            Object
+                                                                                                Member Key: __type
+                                                                                                    String value: ExtendedPropertyUri:#Exchange
+                                                                                                    Key: __type
+                                                                                                Member Key: PropertyTag
+                                                                                                    String value: 0x6815
+                                                                                                    Key: PropertyTag
+                                                                                                Member Key: PropertyType
+                                                                                                    String value: Integer
+                                                                                                    Key: PropertyType
+                                                                                            Key: ExtendedFieldURI
+                                                                                        Member Key: Value
+                                                                                            String value: 1145541
+                                                                                            Key: Value
+                                                                                Key: ExtendedProperty
+                                                                            Member Key: LastModifiedTime
+                                                                                String value: 2021-10-30T11:11:14+01:00
+                                                                                Key: LastModifiedTime
+                                                                            Member Key: ConversationId
+                                                                                Object
+                                                                                    Member Key: __type
+                                                                                        String value: ItemId:#Exchange
+                                                                                        Key: __type
+                                                                                    Member Key: Id
+                                                                                        String value: AQQkADAwATNiZmYAZC00MWVhLWM1NQAxLTAwAi0wMAoAEADa5W5uAHTY7UOMxOh+W/HdDQ==
+                                                                                        Key: Id
+                                                                                Key: ConversationId
+                                                                            Member Key: UniqueBody
+                                                                                Object
+                                                                                    Member Key: BodyType
+                                                                                        String value: HTML
+                                                                                        Key: BodyType
+                                                                                    Member Key: Value
+                                                                                        String value [truncated]: <html><body><div>\r\n<div dir="ltr">\r\n<div>\r\n<div dir="ltr">Hello fine gentlemen,<br>\r\n\r\n<br>\r\n\r\nHow are you enjoying your cut from our chicken business deal?<br>\r\n\r\nIt is now almost 2 months sinc
+                                                                                        Key: Value
+                                                                                    Member Key: IsTruncated
+                                                                                        False value
+                                                                                        Key: IsTruncated
+                                                                                Key: UniqueBody
+                                                                            Member Key: Flag
+                                                                                Object
+                                                                                    Member Key: FlagStatus
+                                                                                        String value: NotFlagged
+                                                                                        Key: FlagStatus
+                                                                                Key: Flag
+                                                                            Member Key: InstanceKey
+                                                                                String value: AQAAAAAAAQwBAAAAFCbeMgAAAAA=
+                                                                                Key: InstanceKey
+                                                                            Member Key: EntityExtractionResult
+                                                                                Object
+                                                                                Key: EntityExtractionResult
+                                                                            Member Key: Preview
+                                                                                String value [truncated]: Hello fine gentlemen, How are you enjoying your cut from our chicken business deal? It is now almost 2 months since we closed the deal and all the dust has settled. Everybody has already forgotten about it, so I 
+                                                                                Key: Preview
+                                                                            Member Key: BlockStatus
+                                                                                False value
+                                                                                Key: BlockStatus
+                                                                            Member Key: HasBlockedImages
+                                                                                False value
+                                                                                Key: HasBlockedImages
+                                                                            Member Key: IconIndex
+                                                                                String value: MailReplied
+                                                                                Key: IconIndex
+                                                                            Member Key: ReceivedOrRenewTime
+                                                                                String value: 2021-10-30T10:59:54+01:00
+                                                                                Key: ReceivedOrRenewTime
+                                                                            Member Key: ConversationThreadId
+                                                                                Object
+                                                                                    Member Key: __type
+                                                                                        String value: ItemId:#Exchange
+                                                                                        Key: __type
+                                                                                    Member Key: Id
+                                                                                        String value: AQQkADAwATNiZmYAZC00MWVhLWM1NQAxLTAwAi0wMAoDJAAQANrlbm4AdNjtQ4zE6H5b8d0NEADa5W5uAHTY7UOMxOh+W/HdDQ==
+                                                                                        Key: Id
+                                                                                Key: ConversationThreadId
+                                                                            Member Key: InferenceClassification
+                                                                                String value: Focused
+                                                                                Key: InferenceClassification
+                                                                            Member Key: CanDelete
+                                                                                True value
+                                                                                Key: CanDelete
+                                                                    Key: Items
+                                                                Member Key: IsRootNode
+                                                                    True value
+                                                                    Key: IsRootNode
+                                                            Object
+                                                                Member Key: InternetMessageId
+                                                                    String value: <PR3P193MB08299D81FADB98923DE0E06EDF889@PR3P193MB0829.EURP193.PROD.OUTLOOK.COM>
+                                                                    Key: InternetMessageId
+                                                                Member Key: ParentInternetMessageId
+                                                                    String value: <CAHko=zYT6W6s=f7w2rtyOr5PoG2Wn3nymkFTZC1E3sj4r2Pdpw@mail.gmail.com>
+                                                                    Key: ParentInternetMessageId
+                                                                Member Key: Items
+                                                                    Array
+                                                                        Object
+                                                                            Member Key: __type
+                                                                                String value: Message:#Exchange
+                                                                                Key: __type
+                                                                            Member Key: Sender
+                                                                                Object
+                                                                                    Member Key: Mailbox
+                                                                                        Object
+                                                                                            Member Key: Name
+                                                                                                String value: Levy Fran Velucci
+                                                                                                Key: Name
+                                                                                            Member Key: EmailAddress
+                                                                                                String value: levyfvelucci@outlook.com
+                                                                                                Key: EmailAddress
+                                                                                            Member Key: RoutingType
+                                                                                                String value: SMTP
+                                                                                                Key: RoutingType
+                                                                                            Member Key: MailboxType
+                                                                                                String value: Mailbox
+                                                                                                Key: MailboxType
+                                                                                        Key: Mailbox
+                                                                                Key: Sender
+                                                                            Member Key: ToRecipients
+                                                                                Array
+                                                                                    Object
+                                                                                        Member Key: Name
+                                                                                            String value: George Sednem
+                                                                                            Key: Name
+                                                                                        Member Key: EmailAddress
+                                                                                            String value: georgesednem@gmail.com
+                                                                                            Key: EmailAddress
+                                                                                        Member Key: RoutingType
+                                                                                            String value: SMTP
+                                                                                            Key: RoutingType
+                                                                                        Member Key: MailboxType
+                                                                                            String value: OneOff
+                                                                                            Key: MailboxType
+                                                                                        Member Key: Submitted
+                                                                                            False value
+                                                                                            Key: Submitted
+                                                                                        Member Key: RelevanceScore
+                                                                                            Number value: 0
+                                                                                            Key: RelevanceScore
+                                                                                    Object
+                                                                                        Member Key: Name
+                                                                                            String value: ryancoast10@outlook.com
+                                                                                            Key: Name
+                                                                                        Member Key: EmailAddress
+                                                                                            String value: ryancoast10@outlook.com
+                                                                                            Key: EmailAddress
+                                                                                        Member Key: RoutingType
+                                                                                            String value: SMTP
+                                                                                            Key: RoutingType
+                                                                                        Member Key: MailboxType
+                                                                                            String value: OneOff
+                                                                                            Key: MailboxType
+                                                                                        Member Key: Submitted
+                                                                                            False value
+                                                                                            Key: Submitted
+                                                                                        Member Key: RelevanceScore
+                                                                                            Number value: 0
+                                                                                            Key: RelevanceScore
+                                                                                Key: ToRecipients
+                                                                            Member Key: ItemId
+                                                                                Object
+                                                                                    Member Key: __type
+                                                                                        String value: ItemId:#Exchange
+                                                                                        Key: __type
+                                                                                    Member Key: ChangeKey
+                                                                                        String value: CQAAABYAAAAQqz28gm65Rp7+PLeIEs4yAAAUI+GQ
+                                                                                        Key: ChangeKey
+                                                                                    Member Key: Id
+                                                                                        String value: AQMkADAwATNiZmYAZC00MWVhLWM1NQAxLTAwAi0wMAoARgAAA30oWgG+QEVOj0hjmQyvIBwHABCrPbyCbrlGnv48t4gSzjIAAAIBCQAAABCrPbyCbrlGnv48t4gSzjIAAAAUJvHJAAAA
+                                                                                        Key: Id
+                                                                                Key: ItemId
+                                                                            Member Key: CcRecipients
+                                                                                Array
+                                                                                Key: CcRecipients
+                                                                            Member Key: ParentFolderId
+                                                                                Object
+                                                                                    Member Key: __type
+                                                                                        String value: FolderId:#Exchange
+                                                                                        Key: __type
+                                                                                    Member Key: Id
+                                                                                        String value: AQMkADAwATNiZmYAZC00MWVhLWM1NQAxLTAwAi0wMAoALgAAA30oWgG+QEVOj0hjmQyvIBwBABCrPbyCbrlGnv48t4gSzjIAAAIBCQAAAA==
+                                                                                        Key: Id
+                                                                                    Member Key: ChangeKey
+                                                                                        String value: AQAAAA==
+                                                                                        Key: ChangeKey
+                                                                                Key: ParentFolderId
+                                                                            Member Key: BccRecipients
+                                                                                Array
+                                                                                Key: BccRecipients
+                                                                            Member Key: ItemClass
+                                                                                String value: IPM.Note
+                                                                                Key: ItemClass
+                                                                            Member Key: IsReadReceiptRequested
+                                                                                False value
+                                                                                Key: IsReadReceiptRequested
+                                                                            Member Key: Subject
+                                                                                String value: Re: Dinner celebration
+                                                                                Key: Subject
+                                                                            Member Key: IsDeliveryReceiptRequested
+                                                                                False value
+                                                                                Key: IsDeliveryReceiptRequested
+                                                                            Member Key: Sensitivity
+                                                                                String value: Normal
+                                                                                Key: Sensitivity
+                                                                            Member Key: Importance
+                                                                                String value: Normal
+                                                                                Key: Importance
+                                                                            Member Key: From
+                                                                                Object
+                                                                                    Member Key: Mailbox
+                                                                                        Object
+                                                                                            Member Key: Name
+                                                                                                String value: Levy Fran Velucci
+                                                                                                Key: Name
+                                                                                            Member Key: EmailAddress
+                                                                                                String value: levyfvelucci@outlook.com
+                                                                                                Key: EmailAddress
+                                                                                            Member Key: RoutingType
+                                                                                                String value: SMTP
+                                                                                                Key: RoutingType
+                                                                                            Member Key: MailboxType
+                                                                                                String value: Mailbox
+                                                                                                Key: MailboxType
+                                                                                        Key: Mailbox
+                                                                                Key: From
+                                                                            Member Key: DateTimeReceived
+                                                                                String value: 2021-10-30T11:11:14+01:00
+                                                                                Key: DateTimeReceived
+                                                                            Member Key: InternetMessageId
+                                                                                String value: <PR3P193MB08299D81FADB98923DE0E06EDF889@PR3P193MB0829.EURP193.PROD.OUTLOOK.COM>
+                                                                                Key: InternetMessageId
+                                                                            Member Key: Size
+                                                                                Number value: 58451
+                                                                                Key: Size
+                                                                            Member Key: IsRead
+                                                                                True value
+                                                                                Key: IsRead
+                                                                            Member Key: IsSubmitted
+                                                                                False value
+                                                                                Key: IsSubmitted
+                                                                            Member Key: IsDraft
+                                                                                False value
+                                                                                Key: IsDraft
+                                                                            Member Key: DateTimeSent
+                                                                                String value: 2021-10-30T11:11:14+01:00
+                                                                                Key: DateTimeSent
+                                                                            Member Key: DateTimeCreated
+                                                                                String value: 2021-10-30T11:10:11+01:00
+                                                                                Key: DateTimeCreated
+                                                                            Member Key: ResponseObjects
+                                                                                Array
+                                                                                    Object
+                                                                                        Member Key: __type
+                                                                                            String value: ReplyToItem:#Exchange
+                                                                                            Key: __type
+                                                                                    Object
+                                                                                        Member Key: __type
+                                                                                            String value: ReplyAllToItem:#Exchange
+                                                                                            Key: __type
+                                                                                    Object
+                                                                                        Member Key: __type
+                                                                                            String value: ForwardItem:#Exchange
+                                                                                            Key: __type
+                                                                                Key: ResponseObjects
+                                                                            Member Key: RecipientCounts
+                                                                                Object
+                                                                                    Member Key: ToRecipientsCount
+                                                                                        Number value: 2
+                                                                                        Key: ToRecipientsCount
+                                                                                Key: RecipientCounts
+                                                                            Member Key: IsGroupEscalationMessage
+                                                                                False value
+                                                                                Key: IsGroupEscalationMessage
+                                                                            Member Key: DisplayTo
+                                                                                String value: George Sednem; ryancoast10@outlook.com
+                                                                                Key: DisplayTo
+                                                                            Member Key: HasAttachments
+                                                                                False value
+                                                                                Key: HasAttachments
+                                                                            Member Key: ExtendedProperty
+                                                                                Array
+                                                                                    Object
+                                                                                        Member Key: ExtendedFieldURI
+                                                                                            Object
+                                                                                                Member Key: __type
+                                                                                                    String value: ExtendedPropertyUri:#Exchange
+                                                                                                    Key: __type
+                                                                                                Member Key: PropertyTag
+                                                                                                    String value: 0xe1d
+                                                                                                    Key: PropertyTag
+                                                                                                Member Key: PropertyType
+                                                                                                    String value: String
+                                                                                                    Key: PropertyType
+                                                                                            Key: ExtendedFieldURI
+                                                                                        Member Key: Value
+                                                                                            String value: Dinner celebration
+                                                                                            Key: Value
+                                                                                    Object
+                                                                                        Member Key: ExtendedFieldURI
+                                                                                            Object
+                                                                                                Member Key: __type
+                                                                                                    String value: ExtendedPropertyUri:#Exchange
+                                                                                                    Key: __type
+                                                                                                Member Key: PropertyTag
+                                                                                                    String value: 0x1016
+                                                                                                    Key: PropertyTag
+                                                                                                Member Key: PropertyType
+                                                                                                    String value: Integer
+                                                                                                    Key: PropertyType
+                                                                                            Key: ExtendedFieldURI
+                                                                                        Member Key: Value
+                                                                                            String value: 3
+                                                                                            Key: Value
+                                                                                    Object
+                                                                                        Member Key: ExtendedFieldURI
+                                                                                            Object
+                                                                                                Member Key: __type
+                                                                                                    String value: ExtendedPropertyUri:#Exchange
+                                                                                                    Key: __type
+                                                                                                Member Key: PropertyTag
+                                                                                                    String value: 0x6815
+                                                                                                    Key: PropertyTag
+                                                                                                Member Key: PropertyType
+                                                                                                    String value: Integer
+                                                                                                    Key: PropertyType
+                                                                                            Key: ExtendedFieldURI
+                                                                                        Member Key: Value
+                                                                                            String value: 1145550
+                                                                                            Key: Value
+                                                                                Key: ExtendedProperty
+                                                                            Member Key: LastModifiedTime
+                                                                                String value: 2021-10-30T11:11:15+01:00
+                                                                                Key: LastModifiedTime
+                                                                            Member Key: ConversationId
+                                                                                Object
+                                                                                    Member Key: __type
+                                                                                        String value: ItemId:#Exchange
+                                                                                        Key: __type
+                                                                                    Member Key: Id
+                                                                                        String value: AQQkADAwATNiZmYAZC00MWVhLWM1NQAxLTAwAi0wMAoAEADa5W5uAHTY7UOMxOh+W/HdDQ==
+                                                                                        Key: Id
+                                                                                Key: ConversationId
+                                                                            Member Key: UniqueBody
+                                                                                Object
+                                                                                    Member Key: BodyType
+                                                                                        String value: HTML
+                                                                                        Key: BodyType
+                                                                                    Member Key: Value
+                                                                                        String value [truncated]: <html><body><div>\r\n<div dir="ltr">\r\n<div style="color:black;font-size:12pt;font-family:Calibri,Arial,Helvetica,sans-serif;">\r\nHello George, \r\n<div><br>\r\n\r\n</div>\r\n<div>What an amazing deal that we w
+                                                                                        Key: Value
+                                                                                    Member Key: IsTruncated
+                                                                                        False value
+                                                                                        Key: IsTruncated
+                                                                                Key: UniqueBody
+                                                                            Member Key: Flag
+                                                                                Object
+                                                                                    Member Key: FlagStatus
+                                                                                        String value: NotFlagged
+                                                                                        Key: FlagStatus
+                                                                                Key: Flag
+                                                                            Member Key: InstanceKey
+                                                                                String value: AQAAAAAAAQkBAAAAFCbxyQAAAAA=
+                                                                                Key: InstanceKey
+                                                                            Member Key: EntityExtractionResult
+                                                                                Object
+                                                                                Key: EntityExtractionResult
+                                                                            Member Key: Preview
+                                                                                String value: Hello George, What an amazing deal that we were able to pull through! This celebration is long overdue, I am in! If Ryan agrees, Solar do Presuntos sounds great. LFV 
+                                                                                Key: Preview
+                                                                            Member Key: BlockStatus
+                                                                                False value
+                                                                                Key: BlockStatus
+                                                                            Member Key: HasBlockedImages
+                                                                                False value
+                                                                                Key: HasBlockedImages
+                                                                            Member Key: ReceivedOrRenewTime
+                                                                                String value: 2021-10-30T11:11:14+01:00
+                                                                                Key: ReceivedOrRenewTime
+                                                                            Member Key: ConversationThreadId
+                                                                                Object
+                                                                                    Member Key: __type
+                                                                                        String value: ItemId:#Exchange
+                                                                                        Key: __type
+                                                                                    Member Key: Id
+                                                                                        String value: AQQkADAwATNiZmYAZC00MWVhLWM1NQAxLTAwAi0wMAoDJAAQANrlbm4AdNjtQ4zE6H5b8d0NEADa5W5uAHTY7UOMxOh+W/HdDQ==
+                                                                                        Key: Id
+                                                                                Key: ConversationThreadId
+                                                                            Member Key: InferenceClassification
+                                                                                String value: Focused
+                                                                                Key: InferenceClassification
+                                                                            Member Key: CanDelete
+                                                                                True value
+                                                                                Key: CanDelete
+                                                                            Member Key: LastSmartResponseTime
+                                                                                String value: 2021-10-30T11:11:14+01:00
+                                                                                Key: LastSmartResponseTime
+                                                                    Key: Items
+                                                                Member Key: IsRootNode
+                                                                    False value
+                                                                    Key: IsRootNode
+                                                                Member Key: HasQuotedText
+                                                                    True value
+                                                                    Key: HasQuotedText
+                                                            Object
+                                                                Member Key: InternetMessageId
+                                                                    String value: <AM9P193MB14769805BF4886C912506D92B3889@AM9P193MB1476.EURP193.PROD.OUTLOOK.COM>
+                                                                    Key: InternetMessageId
+                                                                Member Key: ParentInternetMessageId
+                                                                    String value: <PR3P193MB08299D81FADB98923DE0E06EDF889@PR3P193MB0829.EURP193.PROD.OUTLOOK.COM>
+                                                                    Key: ParentInternetMessageId
+                                                                Member Key: Items
+                                                                    Array
+                                                                        Object
+                                                                            Member Key: __type
+                                                                                String value: Message:#Exchange
+                                                                                Key: __type
+                                                                            Member Key: Sender
+                                                                                Object
+                                                                                    Member Key: Mailbox
+                                                                                        Object
+                                                                                            Member Key: Name
+                                                                                                String value: Ryan Coast
+                                                                                                Key: Name
+                                                                                            Member Key: EmailAddress
+                                                                                                String value: ryancoast10@outlook.com
+                                                                                                Key: EmailAddress
+                                                                                            Member Key: RoutingType
+                                                                                                String value: SMTP
+                                                                                                Key: RoutingType
+                                                                                            Member Key: MailboxType
+                                                                                                String value: OneOff
+                                                                                                Key: MailboxType
+                                                                                        Key: Mailbox
+                                                                                Key: Sender
+                                                                            Member Key: ToRecipients
+                                                                                Array
+                                                                                    Object
+                                                                                        Member Key: Name
+                                                                                            String value: Levy Fran Velucci
+                                                                                            Key: Name
+                                                                                        Member Key: EmailAddress
+                                                                                            String value: levyfvelucci@outlook.com
+                                                                                            Key: EmailAddress
+                                                                                        Member Key: RoutingType
+                                                                                            String value: SMTP
+                                                                                            Key: RoutingType
+                                                                                        Member Key: MailboxType
+                                                                                            String value: Mailbox
+                                                                                            Key: MailboxType
+                                                                                        Member Key: Submitted
+                                                                                            False value
+                                                                                            Key: Submitted
+                                                                                    Object
+                                                                                        Member Key: Name
+                                                                                            String value: George Sednem
+                                                                                            Key: Name
+                                                                                        Member Key: EmailAddress
+                                                                                            String value: georgesednem@gmail.com
+                                                                                            Key: EmailAddress
+                                                                                        Member Key: RoutingType
+                                                                                            String value: SMTP
+                                                                                            Key: RoutingType
+                                                                                        Member Key: MailboxType
+                                                                                            String value: OneOff
+                                                                                            Key: MailboxType
+                                                                                        Member Key: Submitted
+                                                                                            False value
+                                                                                            Key: Submitted
+                                                                                        Member Key: RelevanceScore
+                                                                                            Number value: 0
+                                                                                            Key: RelevanceScore
+                                                                                Key: ToRecipients
+                                                                            Member Key: ItemId
+                                                                                Object
+                                                                                    Member Key: __type
+                                                                                        String value: ItemId:#Exchange
+                                                                                        Key: __type
+                                                                                    Member Key: ChangeKey
+                                                                                        String value: CQAAABYAAAAQqz28gm65Rp7+PLeIEs4yAAAUarOj
+                                                                                        Key: ChangeKey
+                                                                                    Member Key: Id
+                                                                                        String value: AQMkADAwATNiZmYAZC00MWVhLWM1NQAxLTAwAi0wMAoARgAAA30oWgG+QEVOj0hjmQyvIBwHABCrPbyCbrlGnv48t4gSzjIAAAIBDAAAABCrPbyCbrlGnv48t4gSzjIAAAAUbdIGAAAA
+                                                                                        Key: Id
+                                                                                Key: ItemId
+                                                                            Member Key: CcRecipients
+                                                                                Array
+                                                                                Key: CcRecipients
+                                                                            Member Key: ParentFolderId
+                                                                                Object
+                                                                                    Member Key: __type
+                                                                                        String value: FolderId:#Exchange
+                                                                                        Key: __type
+                                                                                    Member Key: Id
+                                                                                        String value: AQMkADAwATNiZmYAZC00MWVhLWM1NQAxLTAwAi0wMAoALgAAA30oWgG+QEVOj0hjmQyvIBwBABCrPbyCbrlGnv48t4gSzjIAAAIBDAAAAA==
+                                                                                        Key: Id
+                                                                                    Member Key: ChangeKey
+                                                                                        String value: AQAAAA==
+                                                                                        Key: ChangeKey
+                                                                                Key: ParentFolderId
+                                                                            Member Key: BccRecipients
+                                                                                Array
+                                                                                Key: BccRecipients
+                                                                            Member Key: ItemClass
+                                                                                String value: IPM.Note
+                                                                                Key: ItemClass
+                                                                            Member Key: IsReadReceiptRequested
+                                                                                False value
+                                                                                Key: IsReadReceiptRequested
+                                                                            Member Key: Subject
+                                                                                String value: Re: Dinner celebration
+                                                                                Key: Subject
+                                                                            Member Key: IsDeliveryReceiptRequested
+                                                                                False value
+                                                                                Key: IsDeliveryReceiptRequested
+                                                                            Member Key: Sensitivity
+                                                                                String value: Normal
+                                                                                Key: Sensitivity
+                                                                            Member Key: Importance
+                                                                                String value: Normal
+                                                                                Key: Importance
+                                                                            Member Key: From
+                                                                                Object
+                                                                                    Member Key: Mailbox
+                                                                                        Object
+                                                                                            Member Key: Name
+                                                                                                String value: Ryan Coast
+                                                                                                Key: Name
+                                                                                            Member Key: EmailAddress
+                                                                                                String value: ryancoast10@outlook.com
+                                                                                                Key: EmailAddress
+                                                                                            Member Key: RoutingType
+                                                                                                String value: SMTP
+                                                                                                Key: RoutingType
+                                                                                            Member Key: MailboxType
+                                                                                                String value: OneOff
+                                                                                                Key: MailboxType
+                                                                                        Key: Mailbox
+                                                                                Key: From
+                                                                            Member Key: DateTimeReceived
+                                                                                String value: 2021-10-30T14:18:48+01:00
+                                                                                Key: DateTimeReceived
+                                                                            Member Key: InternetMessageId
+                                                                                String value: <AM9P193MB14769805BF4886C912506D92B3889@AM9P193MB1476.EURP193.PROD.OUTLOOK.COM>
+                                                                                Key: InternetMessageId
+                                                                            Member Key: Size
+                                                                                Number value: 80302
+                                                                                Key: Size
+                                                                            Member Key: IsRead
+                                                                                True value
+                                                                                Key: IsRead
+                                                                            Member Key: IsSubmitted
+                                                                                False value
+                                                                                Key: IsSubmitted
+                                                                            Member Key: IsDraft
+                                                                                False value
+                                                                                Key: IsDraft
+                                                                            Member Key: DateTimeSent
+                                                                                String value: 2021-10-30T14:18:41+01:00
+                                                                                Key: DateTimeSent
+                                                                            Member Key: DateTimeCreated
+                                                                                String value: 2021-10-30T14:18:48+01:00
+                                                                                Key: DateTimeCreated
+                                                                            Member Key: ResponseObjects
+                                                                                Array
+                                                                                    Object
+                                                                                        Member Key: __type
+                                                                                            String value: ReplyToItem:#Exchange
+                                                                                            Key: __type
+                                                                                    Object
+                                                                                        Member Key: __type
+                                                                                            String value: ReplyAllToItem:#Exchange
+                                                                                            Key: __type
+                                                                                    Object
+                                                                                        Member Key: __type
+                                                                                            String value: ForwardItem:#Exchange
+                                                                                            Key: __type
+                                                                                Key: ResponseObjects
+                                                                            Member Key: RecipientCounts
+                                                                                Object
+                                                                                    Member Key: ToRecipientsCount
+                                                                                        Number value: 2
+                                                                                        Key: ToRecipientsCount
+                                                                                Key: RecipientCounts
+                                                                            Member Key: IsGroupEscalationMessage
+                                                                                False value
+                                                                                Key: IsGroupEscalationMessage
+                                                                            Member Key: DisplayTo
+                                                                                String value: Levy Fran Velucci; George Sednem
+                                                                                Key: DisplayTo
+                                                                            Member Key: HasAttachments
+                                                                                False value
+                                                                                Key: HasAttachments
+                                                                            Member Key: ExtendedProperty
+                                                                                Array
+                                                                                    Object
+                                                                                        Member Key: ExtendedFieldURI
+                                                                                            Object
+                                                                                                Member Key: __type
+                                                                                                    String value: ExtendedPropertyUri:#Exchange
+                                                                                                    Key: __type
+                                                                                                Member Key: PropertyTag
+                                                                                                    String value: 0xe1d
+                                                                                                    Key: PropertyTag
+                                                                                                Member Key: PropertyType
+                                                                                                    String value: String
+                                                                                                    Key: PropertyType
+                                                                                            Key: ExtendedFieldURI
+                                                                                        Member Key: Value
+                                                                                            String value: Dinner celebration
+                                                                                            Key: Value
+                                                                                    Object
+                                                                                        Member Key: ExtendedFieldURI
+                                                                                            Object
+                                                                                                Member Key: __type
+                                                                                                    String value: ExtendedPropertyUri:#Exchange
+                                                                                                    Key: __type
+                                                                                                Member Key: PropertyTag
+                                                                                                    String value: 0x1016
+                                                                                                    Key: PropertyTag
+                                                                                                Member Key: PropertyType
+                                                                                                    String value: Integer
+                                                                                                    Key: PropertyType
+                                                                                            Key: ExtendedFieldURI
+                                                                                        Member Key: Value
+                                                                                            String value: 3
+                                                                                            Key: Value
+                                                                                    Object
+                                                                                        Member Key: ExtendedFieldURI
+                                                                                            Object
+                                                                                                Member Key: __type
+                                                                                                    String value: ExtendedPropertyUri:#Exchange
+                                                                                                    Key: __type
+                                                                                                Member Key: PropertyTag
+                                                                                                    String value: 0x6815
+                                                                                                    Key: PropertyTag
+                                                                                                Member Key: PropertyType
+                                                                                                    String value: Integer
+                                                                                                    Key: PropertyType
+                                                                                            Key: ExtendedFieldURI
+                                                                                        Member Key: Value
+                                                                                            String value: 1145566
+                                                                                            Key: Value
+                                                                                Key: ExtendedProperty
+                                                                            Member Key: LastModifiedTime
+                                                                                String value: 2021-10-30T14:18:48+01:00
+                                                                                Key: LastModifiedTime
+                                                                            Member Key: ConversationId
+                                                                                Object
+                                                                                    Member Key: __type
+                                                                                        String value: ItemId:#Exchange
+                                                                                        Key: __type
+                                                                                    Member Key: Id
+                                                                                        String value: AQQkADAwATNiZmYAZC00MWVhLWM1NQAxLTAwAi0wMAoAEADa5W5uAHTY7UOMxOh+W/HdDQ==
+                                                                                        Key: Id
+                                                                                Key: ConversationId
+                                                                            Member Key: UniqueBody
+                                                                                Object
+                                                                                    Member Key: BodyType
+                                                                                        String value: HTML
+                                                                                        Key: BodyType
+                                                                                    Member Key: Value
+                                                                                        String value: <html><body><div>\r\n<div>\r\n<p>Hello George,<br>\r\n\r\n<br>\r\n\r\nSolar dos Presuntos is fine by me.<br>\r\n\r\n<br>\r\n\r\nRyan Coast</p>\r\n</div>\r\n</div>\r\n</body></html>
+                                                                                        Key: Value
+                                                                                    Member Key: IsTruncated
+                                                                                        False value
+                                                                                        Key: IsTruncated
+                                                                                Key: UniqueBody
+                                                                            Member Key: Flag
+                                                                                Object
+                                                                                    Member Key: FlagStatus
+                                                                                        String value: NotFlagged
+                                                                                        Key: FlagStatus
+                                                                                Key: Flag
+                                                                            Member Key: InstanceKey
+                                                                                String value: AQAAAAAAAQwBAAAAFG3SBgAAAAA=
+                                                                                Key: InstanceKey
+                                                                            Member Key: EntityExtractionResult
+                                                                                Object
+                                                                                Key: EntityExtractionResult
+                                                                            Member Key: Preview
+                                                                                String value: Hello George, Solar dos Presuntos is fine by me. Ryan Coast 
+                                                                                Key: Preview
+                                                                            Member Key: BlockStatus
+                                                                                False value
+                                                                                Key: BlockStatus
+                                                                            Member Key: HasBlockedImages
+                                                                                False value
+                                                                                Key: HasBlockedImages
+                                                                            Member Key: ReceivedOrRenewTime
+                                                                                String value: 2021-10-30T14:18:48+01:00
+                                                                                Key: ReceivedOrRenewTime
+                                                                            Member Key: ConversationThreadId
+                                                                                Object
+                                                                                    Member Key: __type
+                                                                                        String value: ItemId:#Exchange
+                                                                                        Key: __type
+                                                                                    Member Key: Id
+                                                                                        String value: AQQkADAwATNiZmYAZC00MWVhLWM1NQAxLTAwAi0wMAoDJAAQANrlbm4AdNjtQ4zE6H5b8d0NEADa5W5uAHTY7UOMxOh+W/HdDQ==
+                                                                                        Key: Id
+                                                                                Key: ConversationThreadId
+                                                                            Member Key: InferenceClassification
+                                                                                String value: Focused
+                                                                                Key: InferenceClassification
+                                                                            Member Key: CanDelete
+                                                                                True value
+                                                                                Key: CanDelete
+                                                                    Key: Items
+                                                                Member Key: IsRootNode
+                                                                    False value
+                                                                    Key: IsRootNode
+                                                                Member Key: HasQuotedText
+                                                                    True value
+                                                                    Key: HasQuotedText
+                                                            Object
+                                                                Member Key: InternetMessageId
+                                                                    String value: <CAHko=zZWpc2KzZiZCxvY=UQ7e=V4xjKQtBsd7=huLvmHWv5mkA@mail.gmail.com>
+                                                                    Key: InternetMessageId
+                                                                Member Key: ParentInternetMessageId
+                                                                    String value: <AM9P193MB14769805BF4886C912506D92B3889@AM9P193MB1476.EURP193.PROD.OUTLOOK.COM>
+                                                                    Key: ParentInternetMessageId
+                                                                Member Key: Items
+                                                                    Array
+                                                                        Object
+                                                                            Member Key: __type
+                                                                                String value: Message:#Exchange
+                                                                                Key: __type
+                                                                            Member Key: Sender
+                                                                                Object
+                                                                                    Member Key: Mailbox
+                                                                                        Object
+                                                                                            Member Key: Name
+                                                                                                String value: George Sednem
+                                                                                                Key: Name
+                                                                                            Member Key: EmailAddress
+                                                                                                String value: georgesednem@gmail.com
+                                                                                                Key: EmailAddress
+                                                                                            Member Key: RoutingType
+                                                                                                String value: SMTP
+                                                                                                Key: RoutingType
+                                                                                            Member Key: MailboxType
+                                                                                                String value: OneOff
+                                                                                                Key: MailboxType
+                                                                                        Key: Mailbox
+                                                                                Key: Sender
+                                                                            Member Key: ToRecipients
+                                                                                Array
+                                                                                    Object
+                                                                                        Member Key: Name
+                                                                                            String value: Ryan Coast
+                                                                                            Key: Name
+                                                                                        Member Key: EmailAddress
+                                                                                            String value: ryancoast10@outlook.com
+                                                                                            Key: EmailAddress
+                                                                                        Member Key: RoutingType
+                                                                                            String value: SMTP
+                                                                                            Key: RoutingType
+                                                                                        Member Key: MailboxType
+                                                                                            String value: OneOff
+                                                                                            Key: MailboxType
+                                                                                        Member Key: Submitted
+                                                                                            False value
+                                                                                            Key: Submitted
+                                                                                        Member Key: RelevanceScore
+                                                                                            Number value: 0
+                                                                                            Key: RelevanceScore
+                                                                                Key: ToRecipients
+                                                                            Member Key: ItemId
+                                                                                Object
+                                                                                    Member Key: __type
+                                                                                        String value: ItemId:#Exchange
+                                                                                        Key: __type
+                                                                                    Member Key: ChangeKey
+                                                                                        String value: CQAAABYAAAAQqz28gm65Rp7+PLeIEs4yAAAUart1
+                                                                                        Key: ChangeKey
+                                                                                    Member Key: Id
+                                                                                        String value: AQMkADAwATNiZmYAZC00MWVhLWM1NQAxLTAwAi0wMAoARgAAA30oWgG+QEVOj0hjmQyvIBwHABCrPbyCbrlGnv48t4gSzjIAAAIBDAAAABCrPbyCbrlGnv48t4gSzjIAAAAUbdIHAAAA
+                                                                                        Key: Id
+                                                                                Key: ItemId
+                                                                            Member Key: CcRecipients
+                                                                                Array
+                                                                                    Object
+                                                                                        Member Key: Name
+                                                                                            String value: Levy Fran Velucci
+                                                                                            Key: Name
+                                                                                        Member Key: EmailAddress
+                                                                                            String value: levyfvelucci@outlook.com
+                                                                                            Key: EmailAddress
+                                                                                        Member Key: RoutingType
+                                                                                            String value: SMTP
+                                                                                            Key: RoutingType
+                                                                                        Member Key: MailboxType
+                                                                                            String value: Mailbox
+                                                                                            Key: MailboxType
+                                                                                        Member Key: Submitted
+                                                                                            False value
+                                                                                            Key: Submitted
+                                                                                Key: CcRecipients
+                                                                            Member Key: ParentFolderId
+                                                                                Object
+                                                                                    Member Key: __type
+                                                                                        String value: FolderId:#Exchange
+                                                                                        Key: __type
+                                                                                    Member Key: Id
+                                                                                        String value: AQMkADAwATNiZmYAZC00MWVhLWM1NQAxLTAwAi0wMAoALgAAA30oWgG+QEVOj0hjmQyvIBwBABCrPbyCbrlGnv48t4gSzjIAAAIBDAAAAA==
+                                                                                        Key: Id
+                                                                                    Member Key: ChangeKey
+                                                                                        String value: AQAAAA==
+                                                                                        Key: ChangeKey
+                                                                                Key: ParentFolderId
+                                                                            Member Key: BccRecipients
+                                                                                Array
+                                                                                Key: BccRecipients
+                                                                            Member Key: ItemClass
+                                                                                String value: IPM.Note
+                                                                                Key: ItemClass
+                                                                            Member Key: IsReadReceiptRequested
+                                                                                False value
+                                                                                Key: IsReadReceiptRequested
+                                                                            Member Key: Subject
+                                                                                String value: Re: Dinner celebration
+                                                                                Key: Subject
+                                                                            Member Key: IsDeliveryReceiptRequested
+                                                                                False value
+                                                                                Key: IsDeliveryReceiptRequested
+                                                                            Member Key: Sensitivity
+                                                                                String value: Normal
+                                                                                Key: Sensitivity
+                                                                            Member Key: Importance
+                                                                                String value: Normal
+                                                                                Key: Importance
+                                                                            Member Key: From
+                                                                                Object
+                                                                                    Member Key: Mailbox
+                                                                                        Object
+                                                                                            Member Key: Name
+                                                                                                String value: George Sednem
+                                                                                                Key: Name
+                                                                                            Member Key: EmailAddress
+                                                                                                String value: georgesednem@gmail.com
+                                                                                                Key: EmailAddress
+                                                                                            Member Key: RoutingType
+                                                                                                String value: SMTP
+                                                                                                Key: RoutingType
+                                                                                            Member Key: MailboxType
+                                                                                                String value: OneOff
+                                                                                                Key: MailboxType
+                                                                                        Key: Mailbox
+                                                                                Key: From
+                                                                            Member Key: DateTimeReceived
+                                                                                String value: 2021-10-30T15:09:55+01:00
+                                                                                Key: DateTimeReceived
+                                                                            Member Key: InternetMessageId
+                                                                                String value: <CAHko=zZWpc2KzZiZCxvY=UQ7e=V4xjKQtBsd7=huLvmHWv5mkA@mail.gmail.com>
+                                                                                Key: InternetMessageId
+                                                                            Member Key: Size
+                                                                                Number value: 77328
+                                                                                Key: Size
+                                                                            Member Key: IsRead
+                                                                                True value
+                                                                                Key: IsRead
+                                                                            Member Key: IsSubmitted
+                                                                                False value
+                                                                                Key: IsSubmitted
+                                                                            Member Key: IsDraft
+                                                                                False value
+                                                                                Key: IsDraft
+                                                                            Member Key: DateTimeSent
+                                                                                String value: 2021-10-30T15:09:37+01:00
+                                                                                Key: DateTimeSent
+                                                                            Member Key: DateTimeCreated
+                                                                                String value: 2021-10-30T15:09:55+01:00
+                                                                                Key: DateTimeCreated
+                                                                            Member Key: ResponseObjects
+                                                                                Array
+                                                                                    Object
+                                                                                        Member Key: __type
+                                                                                            String value: ReplyToItem:#Exchange
+                                                                                            Key: __type
+                                                                                    Object
+                                                                                        Member Key: __type
+                                                                                            String value: ReplyAllToItem:#Exchange
+                                                                                            Key: __type
+                                                                                    Object
+                                                                                        Member Key: __type
+                                                                                            String value: ForwardItem:#Exchange
+                                                                                            Key: __type
+                                                                                Key: ResponseObjects
+                                                                            Member Key: RecipientCounts
+                                                                                Object
+                                                                                    Member Key: ToRecipientsCount
+                                                                                        Number value: 1
+                                                                                        Key: ToRecipientsCount
+                                                                                    Member Key: CcRecipientsCount
+                                                                                        Number value: 1
+                                                                                        Key: CcRecipientsCount
+                                                                                Key: RecipientCounts
+                                                                            Member Key: IsGroupEscalationMessage
+                                                                                False value
+                                                                                Key: IsGroupEscalationMessage
+                                                                            Member Key: DisplayTo
+                                                                                String value: Ryan Coast
+                                                                                Key: DisplayTo
+                                                                            Member Key: HasAttachments
+                                                                                False value
+                                                                                Key: HasAttachments
+                                                                            Member Key: ExtendedProperty
+                                                                                Array
+                                                                                    Object
+                                                                                        Member Key: ExtendedFieldURI
+                                                                                            Object
+                                                                                                Member Key: __type
+                                                                                                    String value: ExtendedPropertyUri:#Exchange
+                                                                                                    Key: __type
+                                                                                                Member Key: PropertyTag
+                                                                                                    String value: 0xe1d
+                                                                                                    Key: PropertyTag
+                                                                                                Member Key: PropertyType
+                                                                                                    String value: String
+                                                                                                    Key: PropertyType
+                                                                                            Key: ExtendedFieldURI
+                                                                                        Member Key: Value
+                                                                                            String value: Dinner celebration
+                                                                                            Key: Value
+                                                                                    Object
+                                                                                        Member Key: ExtendedFieldURI
+                                                                                            Object
+                                                                                                Member Key: __type
+                                                                                                    String value: ExtendedPropertyUri:#Exchange
+                                                                                                    Key: __type
+                                                                                                Member Key: PropertyTag
+                                                                                                    String value: 0x1016
+                                                                                                    Key: PropertyTag
+                                                                                                Member Key: PropertyType
+                                                                                                    String value: Integer
+                                                                                                    Key: PropertyType
+                                                                                            Key: ExtendedFieldURI
+                                                                                        Member Key: Value
+                                                                                            String value: 3
+                                                                                            Key: Value
+                                                                                    Object
+                                                                                        Member Key: ExtendedFieldURI
+                                                                                            Object
+                                                                                                Member Key: __type
+                                                                                                    String value: ExtendedPropertyUri:#Exchange
+                                                                                                    Key: __type
+                                                                                                Member Key: PropertyTag
+                                                                                                    String value: 0x6815
+                                                                                                    Key: PropertyTag
+                                                                                                Member Key: PropertyType
+                                                                                                    String value: Integer
+                                                                                                    Key: PropertyType
+                                                                                            Key: ExtendedFieldURI
+                                                                                        Member Key: Value
+                                                                                            String value: 1148567
+                                                                                            Key: Value
+                                                                                Key: ExtendedProperty
+                                                                            Member Key: LastModifiedTime
+                                                                                String value: 2021-10-30T15:10:22+01:00
+                                                                                Key: LastModifiedTime
+                                                                            Member Key: ConversationId
+                                                                                Object
+                                                                                    Member Key: __type
+                                                                                        String value: ItemId:#Exchange
+                                                                                        Key: __type
+                                                                                    Member Key: Id
+                                                                                        String value: AQQkADAwATNiZmYAZC00MWVhLWM1NQAxLTAwAi0wMAoAEADa5W5uAHTY7UOMxOh+W/HdDQ==
+                                                                                        Key: Id
+                                                                                Key: ConversationId
+                                                                            Member Key: UniqueBody
+                                                                                Object
+                                                                                    Member Key: BodyType
+                                                                                        String value: HTML
+                                                                                        Key: BodyType
+                                                                                    Member Key: Value
+                                                                                        String value [truncated]: <html><body><div>\r\n<div>\r\n<div dir="ltr">Great!<br>\r\n\r\nDinner reservation tonight at 8 PM.<br>\r\n\r\n<br>\r\n\r\nBest regards,<br>\r\n\r\nGeorge Sednem<br>\r\n\r\n</div>\r\n<br>\r\n\r\n<div>\r\n<div dir=
+                                                                                        Key: Value
+                                                                                    Member Key: IsTruncated
+                                                                                        False value
+                                                                                        Key: IsTruncated
+                                                                                Key: UniqueBody
+                                                                            Member Key: Flag
+                                                                                Object
+                                                                                    Member Key: FlagStatus
+                                                                                        String value: NotFlagged
+                                                                                        Key: FlagStatus
+                                                                                Key: Flag
+                                                                            Member Key: InstanceKey
+                                                                                String value: AQAAAAAAAQwBAAAAFG3SBwAAAAA=
+                                                                                Key: InstanceKey
+                                                                            Member Key: EntityExtractionResult
+                                                                                Object
+                                                                                    Member Key: EmailAddresses
+                                                                                        Array
+                                                                                            Object
+                                                                                                Member Key: __type
+                                                                                                    String value: EmailAddressEntityType:#Exchange
+                                                                                                    Key: __type
+                                                                                                Member Key: EmailAddress
+                                                                                                    String value: ryancoast10@outlook.com
+                                                                                                    Key: EmailAddress
+                                                                                                Member Key: Position
+                                                                                                    String value: LatestReply
+                                                                                                    Key: Position
+                                                                                        Key: EmailAddresses
+                                                                                Key: EntityExtractionResult
+                                                                            Member Key: Preview
+                                                                                String value: Great! Dinner reservation tonight at 8 PM. Best regards, George Sednem Ryan Coast <ryancoast10@outlook.com> escreveu no dia sábado, 30/10/2021 à(s) 14:18: Hello George, Solar dos Presuntos is fine by me. Ryan Coast 
+                                                                                Key: Preview
+                                                                            Member Key: BlockStatus
+                                                                                False value
+                                                                                Key: BlockStatus
+                                                                            Member Key: HasBlockedImages
+                                                                                False value
+                                                                                Key: HasBlockedImages
+                                                                            Member Key: ReceivedOrRenewTime
+                                                                                String value: 2021-10-30T15:09:55+01:00
+                                                                                Key: ReceivedOrRenewTime
+                                                                            Member Key: ConversationThreadId
+                                                                                Object
+                                                                                    Member Key: __type
+                                                                                        String value: ItemId:#Exchange
+                                                                                        Key: __type
+                                                                                    Member Key: Id
+                                                                                        String value: AQQkADAwATNiZmYAZC00MWVhLWM1NQAxLTAwAi0wMAoDJAAQANrlbm4AdNjtQ4zE6H5b8d0NEADa5W5uAHTY7UOMxOh+W/HdDQ==
+                                                                                        Key: Id
+                                                                                Key: ConversationThreadId
+                                                                            Member Key: InferenceClassification
+                                                                                String value: Focused
+                                                                                Key: InferenceClassification
+                                                                            Member Key: CanDelete
+                                                                                True value
+                                                                                Key: CanDelete
+                                                                    Key: Items
+                                                                Member Key: IsRootNode
+                                                                    False value
+                                                                    Key: IsRootNode
+                                                                Member Key: IsQuotedTextChanged
+                                                                    True value
+                                                                    Key: IsQuotedTextChanged
+                                                                Member Key: HasQuotedText
+                                                                    True value
+                                                                    Key: HasQuotedText
+                                                        Key: ConversationNodes
+                                                    Member Key: TotalConversationNodesCount
+                                                        Number value: 4
+                                                        Key: TotalConversationNodesCount
+                                                    Member Key: LastModifiedTime
+                                                        Null value
+                                                        Key: LastModifiedTime
+                                                    Member Key: ConversationDiagnosticsInfo
+                                                        Null value
+                                                        Key: ConversationDiagnosticsInfo
+                                                Key: Conversation
+                                            Member Key: ResponseCode
+                                                String value: NoError
+                                                Key: ResponseCode
+                                            Member Key: ResponseClass
+                                                String value: Success
+                                                Key: ResponseClass
+                                    Key: Items
+                            Key: ResponseMessages
+                    Key: Body
