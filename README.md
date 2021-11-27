@@ -2,6 +2,8 @@
 
 A forensics cyber security simulation of an investigation entitled “Football Leaks”.
 
+<img src="football-leaks.jpg">
+
 ## The investigation
 
 This investigation will be conducted in three progressive stages, stage1, stage2 and stage3, each of them exploring different cyber security forensic techniques.
