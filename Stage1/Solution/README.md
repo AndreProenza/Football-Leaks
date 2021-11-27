@@ -433,7 +433,4 @@ Correr na diretoria `Tools/`.
   Após a execução deste comando, para cada ficheiro dado são aplicados os comandos `hexdump` e `strings`
   e guardados os outputs nas respetivas diretorias `Evidences/HexdumpFiles/` e `Evidences/StringsFiles/`.
   
-  ---
-  
-  <h4 align="center"> • Grupo 47 • Ana Albuquerque 102209 • André Proença 102327 • Joel Russo 102098 •
-</h4>
+---
