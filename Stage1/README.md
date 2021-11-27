@@ -1,6 +1,8 @@
 # Football Leaks - Stage 1
 
-<img src="https://user-images.githubusercontent.com/78174997/143688374-8fface34-8c12-44c2-a0bc-17f2326cc640.jpg" width="200px">
+### File forensics and Steganalysis
+
+<img src="https://user-images.githubusercontent.com/78174997/143691513-39d2ca4c-64b8-4f0d-8b41-bd19f35e5388.jpg" width="380px">
 
 
 ## Introduction
