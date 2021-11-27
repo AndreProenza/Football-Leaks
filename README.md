@@ -40,6 +40,6 @@ To analyze the digital artifacts, you may use the `Kali Linux` distribution or t
 
 ## Requirements
 
-- Programming (preferably python)
+- Programming (preferably python) 
 - Unix
 - Bash 
