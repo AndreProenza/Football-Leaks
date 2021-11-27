@@ -1,0 +1,10 @@
+18:20 <chapman13> Amazing!
+18:20 <chapman13> You just unzip the tool on the ir-ssame directory as the red hawks files.
+18:20 <chapman13> And then you run the script chapman_extract.sh
+18:20 <chapman13> Pretty simple right?
+18:20 <charlied> ye
+18:20 <chapman13> Then for the chants file open it up using ghex.
+18:20 <chapman13> Then you go to edit->insert mode
+18:20 <chapman13> And you add onto the header of the file %PDF-
+18:20 <chapman13> Amazing! I'll see you in a bit. xo
+18:20 <charlied> xo

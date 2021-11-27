@@ -1,0 +1,102 @@
+thunderbird
+sudo apt install thunderbird
+irssi
+sudo apt install irssi 
+pwd
+mkdir firefox_cache
+ls -lah
+cd firefox_cache/
+ls -lah
+cd ..
+ls -lah 
+cd firefox_cache/
+ls -lah
+cd Downloads/
+unzip wetransfer_obfuscator_2021-10-06_2110.zip 
+rm wetransfer_obfuscator_2021-10-06_2110.zip 
+mkdir /home/charlied/password_gen
+mv seeds.txt obfuscator /home/charlied/password_gen
+cd ..
+cd password_gen/
+ls
+mkdir cron_manager
+cd cron_manager/
+touch backup.sh
+vim backup.sh 
+sudo apt install vim
+vim backup.sh 
+chmod 777 backup.sh 
+ls -lah
+./backup.sh 
+ifconfig
+sudo apt install net-tools
+ifconfig
+cd cron_manager/
+vim backup.sh
+ifconfig
+ping 192.168.1.90
+ssh 192.168.1.90
+ls -lah
+cd cron_manager/
+ls -lah
+vim backup.sh 
+crontab -e
+ls -lah
+vim backup.sh 
+ssh-keygen
+ssh-copy-id -i ~/.ssh/id_rsa.pub charlied@backup-server
+ssh charlied@backup-server
+cd ..
+wget https:based.cooking/francesinha.html
+wget https://based.cooking/francesinha.html
+cat cron_manager/backup.sh 
+rsync -a francesinha.html charlied@backup-server:~
+rsync -a ./Pictures/brothers.gif charlied@backup-server:~
+vim cron_manager/backup.sh 
+crontab -e
+sudo apt install virtualbox-guest-additions-iso
+ghex
+sudo apt install ghex
+ghex
+sudo apt install ghex
+md5sum
+exiftool
+sudo apt install libimage-exiftool-perl
+pip3
+sudo apt install python3-pip
+sudo apt install virtualbox-guest-additions-iso
+pip3 install bitsring
+pip3 install bitstring
+irssi
+ls -lah
+cd /media/charlied/CHAPMAN1337/
+ls -lah
+cd ~
+ls -lah
+cp /media/charlied/CHAPMAN1337/hawks_fc.zip ~/rhfc/
+cd rhfc/
+ls -lah
+cat extract_instructions.txt 
+unzip hawks_fc.zip 
+chmod 777 chapman_extract.sh 
+./chapman_extract.sh 
+unzip chants.zip 
+./chapman_extract.sh 
+ls -lah
+xdg-open James_Santos_profile.pdf 
+xdg-open supporters_statement.pdf 
+xdg-open club_statement.pdf 
+xdg-open bank_statement.pdf 
+ghex chant2 
+mv chant2 club_memo.pdf
+xdg-open club_memo.pdf 
+irssi
+ls -lah
+cd rhfc/
+vim secure_delete_commands.txt
+ls -lah 
+cat ~/rhfc/secure_delete_commands.txt 
+srm -vz ~/rhfc/*
+sudo apt install secure-delete
+srm -vz ~/rhfc/*
+ls -lah
