@@ -829,9 +829,4 @@ Correr na diretoria `Tools/`.
         
  Após a execução deste comando, todas as evidências e provas serão armazenadas na diretoria `Evidences/`
 
-   ---
-  
-  <h4 align="center"> • Grupo 47 • Ana Albuquerque 102209 • André Proença 102327 • Joel Russo 102098 •
-</h4>
-
  ---
