@@ -1,5 +1,10 @@
 # Football Leaks - Stage 3
 
+### Network analysis and malware analysis
+
+<img src="https://user-images.githubusercontent.com/78174997/143691604-21ee3354-6128-444f-b2f5-83f4c5ae6acb.jpg" width="380px">
+
+
 ## Introduction
 
 This assignment stage will conclude the investigation of the case “Football Leaks”. After having analyzed the
