@@ -6,7 +6,7 @@ This README provides an overview of the case and describes the first assignment.
 you gain hands-on experience on file forensics and steganalysis, and it requires the examination of a
 small number of files which can be found in the `Artifacts` folder. 
 
-To analyze these artifacts, you may use the Kali Linux distribution or the Parrot OS idstribution on a forensically sound virtual machine.
+To analyze these artifacts, you may use the `Kali Linux` distribution or the `Parrot OS` idstribution on a forensically sound virtual machine.
 
 ---
 
