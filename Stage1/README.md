@@ -33,7 +33,16 @@ to lead the forensic task force looking for relevant digital evidence.
 The first responding officer found several pieces of equipment in Mr. Daniels’ residence, amongst
 which a pen drive. The following files were extracted from this pen drive (these files can be found in the `Artifacts` folder)
 
-
+| File                             | MD5                              
+|:--------------------------------:|:---------------------------------
+|SNA_Football_Lyrics.mp4           | 7083c363444daa3b0eb391443320ecd8 
+|chants.zip                        | 1b78c24f64322c51f181e6ac5ec97bc6
+|daft_punk.gif                     | 5305480b1832ad42698bdf91f8c2c8e1
+|discovery.jpg                     | 8331798d0e376a5336fe6838174e74e8
+|hbfs.wav                          | ab7ad5f3427854429ac3a4574197ae0b
+|homework.jpg                      | 8963c92d2f964492ed1c7e9138849ad9
+|ram.jpg                           | 5c766ce1155a907627355633a9f61340
+|ticket.jpg                        | d8bdf6c05594548670f5cceda02fded2
 
 ---
 
