@@ -92,7 +92,8 @@ taken place and the secrets ended up in Charles Daniels’ computers?**
 > Quanto a como é que os ficheiros chegaram ao computador de Charles Daniels, não foi possível confirmar como foram enviados, visto que a captura do tráfego termina antes desse acontecimento. 	
 </p>
 
-![linha de tempo](timeline.png)
+![timeline2](https://user-images.githubusercontent.com/78174997/143702828-0b1f5158-78be-48ca-9228-2d8bb772cce6.png)
+
 
 #
 
@@ -194,13 +195,14 @@ De modo a desencriptar o tráfego HTTPS interceptado pelo proxy, importámos o f
 
 No GUI do Wireshark carregar: `Edit` --> `Preferences` --> `Protocols`
 
-<img width="700" alt="wireshark1" src="wireshark1.png">
+<img width="700" alt="wireshark1" src="https://user-images.githubusercontent.com/78174997/143701374-37d68f76-c3ac-4bca-a391-c0564020a336.png">
+
 
 Depois procurar em `Protocols` --> `TLS`. 
 
 Na aba `(Pre)-Master-Secret log filename` --> `Browse` --> `sslkeylogfile.txt` --> `OK`
 
-<img width="700" alt="wireshark2" src="wireshark2.png">
+<img width="700" alt="wireshark2" src="https://user-images.githubusercontent.com/78174997/143701609-6bb5152b-a305-4b2b-986b-dbe6692bb0f7.png">
 
 Após esta configuração, podemos então prosseguir para a análise da captura.
 
@@ -870,8 +872,3 @@ Python script que dado um ficheiro encriptado pelo ficheiro de malware `shell.py
   python3 decrypt.py <file_name> 
   ```
    ---
-  
-  <h4 align="center"> • Grupo 47 • Ana Albuquerque 102209 • André Proença 102327 • Joel Russo 102098 •
-</h4>
-
- ---
