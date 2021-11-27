@@ -1,5 +1,8 @@
 # Football Leaks - Stage 1
 
+<img src="https://user-images.githubusercontent.com/78174997/143688374-8fface34-8c12-44c2-a0bc-17f2326cc640.jpg" width="200px">
+
+
 ## Introduction
 
 This README provides an overview of the case and describes the first assignment. This stage will help
