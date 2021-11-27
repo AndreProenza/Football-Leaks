@@ -53,7 +53,7 @@ Frederick was able to give you access to two pieces of data: (1) a network trace
 (2) the HTTPS proxy key file, all obtained sometime before the actions investigated in the previous as-
 signments. The HTTPS proxy key file enables forensic analysts to decrypt the traces of HTTPS traffic
 intercepted by the proxy. This file can be provided directly to Wireshark. Both artefacts are enclosed
-inside a zip file that can be downloaded from ...
+inside a zip file that can be downloaded from https://drive.google.com/file/d/1dKAtVda4BbY1OSO4aQRtCZDhFNv5vq4j/view?usp=sharing
 
 Additionally, Frederick also confirmed the e-mail addresses of some Red Hawks FC’s collaborators:
 
