@@ -22,16 +22,24 @@ This simulation will help you gain hands-on experience on techniques such as fil
   - Network analysis and malware analysis
 
 
-## How to start
+## How to start the investigation?
+
+The investigation has a sequence of events. Therefore, it is necessary and recommended to start the investigation at stage 1.
+
+At each stage, an assignement is provided, which indicates what digital artifacts to analyze and how to analyze them. The digital artifacts are also provided.
+Your job is to analyze the digital artifacts and answer four questions. Justify your answers by providing all the relevant evidence you can find. Make sure to explain your hypotheses and how you have proceeded to validate them. You should write a forensic report that describes your findings.
+
+In case you have no clue, on how to proceed the investigation, a detailed solution for each stage is provided.
 
 
+## Where to analyze the artifacts?
 
-## How to Investigate
+To analyze the digital artifacts, you may use the Kali Linux distribution or the Parrot OS distribution on a forensically sound virtual machine.
 
-To analyze these artifacts, you may use the Kali Linux distribution on a forensically sound virtual machine.
+<img src="kali.jpg"> | <img src="parrot.jpg">
 
 ## Requirements
 
-- Programming knowledge (preferably python)
-- Unix knowledge
-- Bash knowledge
+- Programming (preferably python)
+- Unix
+- Bash 
