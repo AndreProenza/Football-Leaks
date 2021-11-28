@@ -7,7 +7,7 @@
 
 ## Introduction
 
-This README provides an overview of the case and describes the first assignment. This stage will help
+This Readme provides an overview of the case and describes the first assignment. This stage will help
 you gain hands-on experience on file forensics and steganalysis, and it requires the examination of a
 small number of files which can be found in the `Artifacts` folder. 
 
