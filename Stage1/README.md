@@ -95,6 +95,6 @@ investigation which are important to justify your results must also be included.
 ### Tips
 
 There are in total 5 hidden secrets in the provided artifacts. The secrets were hidden using some
-of the techniques that were introduced in the theory classes about file forensics and steganography.
+of the techniques about file forensics and steganography.
 
 ---
