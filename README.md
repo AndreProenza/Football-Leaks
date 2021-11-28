@@ -49,3 +49,9 @@ To analyze the digital artifacts, you may use the `Kali Linux` distribution or t
 - Programming (preferably python) 
 - Unix
 - Bash 
+
+---
+
+## Information about stage assignments and artifacts 
+
+All stage assignments and artifacts were provided by [Instituto Superior Técnico](https://tecnico.ulisboa.pt/en/), however each stage solution were developed by us.
