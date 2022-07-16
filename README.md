@@ -52,6 +52,14 @@ To analyze the digital artifacts, you may use the `Kali Linux` distribution or t
 
 ---
 
+## Authors
+
+* **Ana Albuquerque** - [GitHub](https://github.com/albuana)
+* **André Proença** - [GitHub](https://github.com/AndreProenza)
+* **Joel Russo** - [GitHub](https://github.com/jolick)
+
+---
+
 ## Information about stage assignments and artifacts 
 
 All stage assignments and artifacts were provided by [Instituto Superior Técnico](https://tecnico.ulisboa.pt/en/), however each stage solution were developed by us.
